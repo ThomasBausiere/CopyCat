@@ -1,0 +1,16 @@
+couleurs cadres 	=	#8f6c1b
+couleur fonds 		=	#0f0f0f
+couleur police blanche	= 	#ffffff
+couleur police dorée 	=	#9f6111
+overlay texte (rouge)	=	#e1261c
+overlay texte (doré) 	= 	#dea33b
+overlay icons (bleu) 	=	#2da9e0
+
+
+POLICES
+
+Titres (Acumin) 	=	<link rel="stylesheet" href="https://use.typekit.net/bqo6pux.css">
+Paragraphes		=	<link rel="stylesheet" href="https://use.typekit.net/bqo6pux.css">
+
+
+

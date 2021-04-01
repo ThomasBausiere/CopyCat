@@ -1,0 +1,230 @@
+HTML{
+    font-size:62.5%;
+}
+
+*{
+    box-sizing:border-box;
+    
+}
+@font-face{
+    font-family: "Cronos Pro";
+    src:url("../Style/fonts/Cronos/Cronos-Pro_12459.woff") format("woff");
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    margin-left:0;
+    margin-right: 0;        
+    font-family: "Cronos Pro";
+   
+}
+
+
+.top{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 35px;
+    margin:0;
+    background-color: black;
+    
+    
+}
+
+.top a {
+         color:#ffffff;
+         text-decoration: none;
+         
+}
+.logo_h{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding:0;
+    height:35px;
+
+
+}
+.top a:hover{
+    color:#e1261c;
+}
+
+.supportinfo{
+       justify-content: flex-end;
+       text-align:right;
+}
+
+.header{
+    background: no-repeat url("../Image/header-bg.jpg") ;
+    width:100%;
+    background-size:cover;
+    position:unset;
+    height:61px;
+    padding-left:25%;
+    padding-right:25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    
+    
+    
+ }
+ .header a{
+    color:#ffffff;
+    text-decoration: none;
+ }
+
+ .header a:hover{
+     color:#dea33b;
+ }
+
+
+
+ .icon {
+    
+    display: block;
+    justify-content: flex-start;
+    width: 30px;
+    height: 30px;
+
+ }
+
+ .main-nav{
+    justify-content: flex-end;
+    text-align:right;
+    
+}
+
+.seconde-nav{
+    display:flex;
+    justify-content: flex-end;
+    text-align:right;
+    margin-right:25%;
+    color:#ffffff;
+    
+}
+.seconde-nav a:hover{
+    color:#dea33b;
+    text-decoration: none;
+}
+.body{
+    
+    background-image: url(../Image/body-bg-2.png), url(../Image/bottom-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    margin-left:25%;
+    margin-right:25%;
+    display:flex;
+    width:60%;
+    height:25%;
+}
+.container{
+    margin-left:20%;
+    margin-right:20%;
+    display:flex;
+    padding-bottom: 25%;
+}
+.container h1,h2, p{
+    color: #ffffff;
+}
+.container h4, a{
+    color: #9f6111;
+}
+.container h4:hover{
+    color:#dea33b;
+}
+
+.sect-1{
+    display:flex;
+    flex-direction: row;
+    
+}
+.art-1{
+    flex-direction: wrap;
+    padding-right:2%;
+}
+.art-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.art-1 h1{
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.art-2{
+    flex-direction: column;
+}
+.left img1{
+    margin-top: 20%;
+}
+.sect-2 h1{
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.sect-2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.sect-2 a{
+    font-size: small;
+    color: #ffffff;
+    
+}
+.left{
+    display:flex;
+    flex-direction: column;
+}
+.left a{
+    font-size: medium;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+
+.event1{
+    display: flex;
+    display: inline;
+   
+}
+
+.event1 a{
+    display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     font-size: small;
+}
+
+.event2 a{
+    text-transform: uppercase;
+    font-size: large;
+    padding-left:0;
+}
+.event2 h4{
+    text-transform: uppercase;
+    font-size: medium;
+    padding-left:0;
+}
+
+.gold a{
+    color:#9f6111;
+}
+
+.gold a:hover{
+    color:#dea33b;
+}
